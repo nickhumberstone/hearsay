@@ -1,14 +1,14 @@
 import { StyleSheet } from 'react-native';
 
-import ConnectForm from '../../components/ConnectForm';
+import EditScreenInfo from '../../components/EditScreenInfo';
 import { Text, View } from '../../components/Themed';
 
-export default function TabOneScreen() {
+export default function ConversationsScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Connect (QOTD)</Text>
+      <Text style={styles.title}>Conversations</Text>
       <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
-      <ConnectForm />
+      
     </View>
   );
 }
